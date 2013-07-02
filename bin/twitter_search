@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative '../lib/twitter_search'
+
+TwitterSearch.new(:hash_tags => ARGV).fetch
